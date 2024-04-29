@@ -27,9 +27,21 @@ body {
 
 .card {
     background: var(--black-gradient);
+    text-align: center;
     max-width: 412px;
-    padding: 32px;
+    padding: 45px 32px;
     border-radius: 30px;
+}
+
+.card img {
+    margin-bottom: 32px;
+}
+
+.paragrafo_nota {
+    background-color: var(--dark-blue);
+    width: fit-content;
+    margin: auto;
+    padding: 4px 18px;
 }
 
 .card h1 {
