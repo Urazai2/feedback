@@ -6,5 +6,5 @@ botoes.forEach(botao => {
 function guardarNota(evento) {
     let nota = evento.target.innerText
 
-    console.log(nota)
+    localStorage.setItem("nota", nota)
 }
